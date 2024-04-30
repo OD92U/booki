@@ -426,8 +426,8 @@ a {
 
 .Activites-cards .card-content {
     display: flex;
-    padding-left: 19px;
-    padding-right: 19px;
+    padding-left: 15px;
+    padding-right: 15px;
     height: 14%;
 }
 
@@ -515,7 +515,8 @@ footer section {
     }
 
     .Activites-cards a {
-        height: 270px;      
+        height: 270px; 
+        min-width: 160px;     
     }
 
     .Activites-cards img {
@@ -527,6 +528,10 @@ footer section {
         display: flex;
         align-content: center;
         height: 25%;
+    }
+
+    .hebergements-cards a {
+        min-width: 200px;
     }
     
     .hebergements-cards .card {
