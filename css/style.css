@@ -188,6 +188,7 @@ input[type=search] {
     border-radius: 50%;
     border-color: #D9D9D9; 
     border-width: 1px;
+    font-size: 0.8em;
 }
 
 body {
@@ -278,7 +279,7 @@ a {
     flex-direction: column;
     width: calc(33% - 20px);
     height: 208px;
-    min-width: 170px;
+    min-width: 180px;
 }
 
 .hebergements-cards {
@@ -586,6 +587,10 @@ footer section {
         border-bottom: #0065FC;
         border-bottom-style: solid;
         border-top-style: none;
+    }
+
+    .fa-info {
+        padding: 0 3px;
     }
     
     .recherche-filtres {
