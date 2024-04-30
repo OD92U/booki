@@ -673,6 +673,10 @@ footer section {
         max-height: 208px;
     }
 
+    .hebergements-cards img {
+        max-height: 124px;
+    }
+
     .Activites {
         width: calc(100% - 60px);
         padding-left: 30px;
