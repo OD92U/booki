@@ -233,7 +233,11 @@ a {
 }
 
 .card-title {
-    font-size: 16px;
+    font-size: 14px;
+}
+
+.card-subtitle {
+    font-size: 0.9em;
 }
 
 .euro {
@@ -279,7 +283,7 @@ a {
     flex-direction: column;
     width: calc(33% - 20px);
     height: 208px;
-    min-width: 180px;
+    min-width: 175px;
 }
 
 .hebergements-cards {
@@ -529,10 +533,6 @@ footer section {
         display: flex;
         align-content: center;
         height: 25%;
-    }
-
-    .hebergements-cards a {
-        min-width: 200px;
     }
     
     .hebergements-cards .card {
