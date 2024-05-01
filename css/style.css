@@ -275,7 +275,7 @@ a {
     justify-content: space-between;
     align-items: center;
     height: 26px;
-    width: calc(100%-60px);
+    width: calc(100% - 60px);
 }
 
 .hebergements-cards a {
