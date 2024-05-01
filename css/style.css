@@ -39,7 +39,7 @@ header {
     align-items: flex-start;
     padding-top: 10px;
 }
-.navib:focus {
+.navib:hover {
     color: #0065FC;
     border-top: #0065FC;
     border-top-style: solid;
@@ -582,7 +582,7 @@ footer section {
         border-bottom-style: solid;
     }
 
-    .navib:focus {
+    .navib:hover {
         color: #0065FC;
         border-bottom: #0065FC;
         border-bottom-style: solid;
